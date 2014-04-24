@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-12-18 BZR 4557)-product date = lun 14 abr 2014 17:48:03 CLST
+
+BeginCmp
+TimeStamp = /52B21B00;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B21B1E;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B21923;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B216A1;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B2187E;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B22831;
+Reference = C6;
+ValeurCmp = 22pF;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B1EF68;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B208BB;
+Reference = C8;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B22A8A;
+Reference = C9;
+ValeurCmp = 22pF;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B209A9;
+Reference = ICSP1;
+ValeurCmp = RJ12;
+IdModule  = Connect:RJ12_E;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B1F781;
+Reference = MCU1;
+ValeurCmp = PIC24FJ256GA110;
+IdModule  = PIC24FJ256GA110:PIC24FJ256GA110;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B1EDDF;
+Reference = POWER_1;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Arrays:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B1FE7A;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /534C48DA;
+Reference = SPI1;
+ValeurCmp = CONN_5;
+IdModule  = Pin_Arrays:pin_array_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B23716;
+Reference = UART1;
+ValeurCmp = CONN_6;
+IdModule  = Pin_Arrays:PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B226BA;
+Reference = XTAL1;
+ValeurCmp = OSC-XTAL-8M;
+IdModule  = Crystals:Crystal_HC49-SD_SMD_RevA_09Aug2010;
+EndCmp
+
+EndListe

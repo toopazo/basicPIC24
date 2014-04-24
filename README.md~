@@ -1,0 +1,47 @@
+placaSPQRadc
+============
+
+PCB for a PIC24FJ256GA110TQPF and ADS1274EVM, it includes the necessary connections fot the PIC to run, plus a UART and SPI interface.
+
+
+ADS1274 control Pins and values for palcaSPQRadc:
+Pin name      | value or connection | op mode
+------------- | ------------- | ------------- |
+DOUT1         | connected by PIC24 | SPI mode |
+SCLK          | connected by PIC24 | SPI mode |
+DIN           | 0V (connected to GND) | SPI mode |
+nSYNC         | connected by PIC24 | SPI mode |
+nDRDY/FSYNC   | connected by PIC24 | SPI mode |
+FORMAT2       | 0V (connected to GND) | SPI TDM Dynamic mode |
+FORMAT1       | 0V (connected to GND) | SPI TDM Dynamic mode |
+FORMAT0       | 0V (connected to GND) | SPI TDM Dynamic mode |
+CLKDIV        | 5V (connected to DVDD) | normal clock mode |
+MODE0         | 5V (connected to DVDD) | Low-Speed mode |
+MODE1         | 5V (connected to DVDD) | Low-Speed mode |
+
+
+ADS1274EVM Settings:
+ADS1274 CLK (clock)
+-J4 open (hw controls CLK source)
+-J5 open (internal CLK source)
+-CLKDVI to 1
+ADS1274 refeence
+-S3 internal reference
+Serial interface
+-S6 SPI mode
+
+
+ADS1271EVM Switches and Jumpers
+============
+
+J4:
+
+Description | Pin Name | Pin Number | Pin Number | Pin Name | Description 
+--------    | -------- | --------   | --------   | -------- | --------
+Synchronize channels input | SYNC | 1 | 2 | MODE0 | bit 0 of converter MODE
+SPI clock | SCLK | 3 | 4 | DGND | Digital ground
+SCLK clock | CLKR | 5 | 6 | MODE1 |Select bit 1 of converter MODE
+
+
+
+
